@@ -1,0 +1,214 @@
+.background-img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.background-img img {
+    width: 100%;
+    height: auto;
+}
+
+.first-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+}
+
+.clipboard-heading {
+    font-family: sans-serif;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clipboard-heading-text {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.IOS-button {
+    background-color: hsl(171, 66%, 44%);
+    padding: 10px 20px;
+    margin: 3px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.MAC-button {
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px 20px;
+    margin: 3px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.clipboard-subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 60px;
+    color: hsl(210, 10%, 33%);
+    padding: 10px;
+}
+
+.computer-container {
+    display: flex;
+}
+
+.computer-img {
+    width: 60%;
+}
+
+.computer-img img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.clipboard-heading-info {
+    margin-top: 5px;
+    color: hsl(210, 10%, 33%);
+}
+
+.clipboard-subtitle-text {
+    color: hsl(201, 11%, 66%);
+}
+
+.clipboard-heading-info,
+.clipboard-subtitle-text {
+    font-size: 14px;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.clipboard-heading-info {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.clipboard-subtitle-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.devices-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.devices-img img {
+    margin-top: 20px;
+}
+
+.blacklist-img,
+.text-snippets-img,
+.sneak-preview-img {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.blacklist-title-info,
+.text-snippets-title,
+.sneak-preview-title {
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.blacklist-info,
+.text-snippets-info,
+.sneak-preview-info {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+    padding-left: 30px;
+}
+
+.company-img-container {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.company-img-container img {
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+}
+
+.clipboard-subtitle-second {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: hsl(210, 10%, 33%);
+    padding: 30px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 94%);
+    padding: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content img {
+    width: 60px;
+    height: auto;
+}
+
+.footer-center li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.footer-center a {
+    font-family: sans-serif;
+    text-decoration: hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
+}
+
+.footer-center ul a:hover {
+    opacity: 70%;
+}
+
+.footer-img img {
+    width: 30px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.right-side {
+    margin-top: 60px;
+    width: 50%;
+    padding-left: 100px;
+}
